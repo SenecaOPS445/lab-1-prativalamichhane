@@ -1,0 +1,27 @@
+test_0 (__main__.lab1a.test_0)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py ... FAIL
+
+======================================================================
+FAIL: test_0 (__main__.lab1a.test_0)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/plamichhane2/ops345/lab1/./CheckLab1.py", line 60, in test_0
+    self.assertTrue(os.path.exists('./lab1a.py'), msg=error_output)
+AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab1.py
+=================================================================
+    User login name: plamichhane2
+    Git Email: plamichhane2@myseneca.ca
+    Linux system name: plamichhane2-virtual-machine
+    Python executable: /usr/bin/python3
+    Python version:  3.12.3 (main, Apr 10 2024, 05:33:47) [GCC 13.2.0]
+    OS Platform: linux
+    Working Directory: /home/plamichhane2/ops345/lab1
+    Start at: Tue Jan  7 18:50:12 2025
+=================================================================
